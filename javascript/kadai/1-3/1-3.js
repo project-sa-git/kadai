@@ -18,7 +18,7 @@ function showTaskList() {
   console.log("=======================");
   console.log("現在持っているのタスク一覧");
   console.log("=======================");
-  tasks.forEach((value, index) => {
-    console.log(index + " : " + value);
+  tasks.forEach((task, index) => {
+    console.log(index + " : " + task);
   });
 }
