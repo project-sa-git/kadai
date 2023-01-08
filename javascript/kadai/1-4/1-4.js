@@ -21,8 +21,8 @@ showTaskList();
 const content = window.prompt("タスクを入力してください");
 const genre = window.prompt("ジャンルを入力してください");
 const task = {
-  content: content,
-  genre: genre,
+  content,
+  genre,
 };
 window.alert("新しいタスクを追加しました。");
 tasks.push(task);
